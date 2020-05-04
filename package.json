@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "dependencies": {},
   "scripts": {
+    "package": "zip -r package.zip * -x "node_modules/*",
     "deploy": "serverless deploy"
   },
   "devDependencies": {
