@@ -1,4 +1,4 @@
-service: reed-scraper
+service: js.scraper
 
 provider:
   name: aws
