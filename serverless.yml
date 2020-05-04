@@ -1,0 +1,15 @@
+service: reed-scraper
+
+provider:
+  name: aws
+  runtime: python3.6
+  region: eu-west-1
+
+package:
+  artifact: package.zip
+
+functions:
+  job:
+    handler: handler.scrape
+    tags:
+      project: job_search
