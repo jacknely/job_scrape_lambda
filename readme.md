@@ -5,7 +5,7 @@
 ### Package
 Ensure all required packages are install at root:
 ```
-pip3 install requests bs4 -t .
+pip3 install requests bs4 timeout-decorator -t .
 ```
 Zip all files
 ```
