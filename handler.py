@@ -118,11 +118,5 @@ def scrape(event, context):
         'message': "job scrape complete"
     }
 
-
-"""
-for b in button:
-   print button_obj.create_button(b).get_jobs()
-"""
-
 if __name__ == "__main__":
     scrape("foo", "bar")
