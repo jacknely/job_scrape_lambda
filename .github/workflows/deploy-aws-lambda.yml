@@ -25,4 +25,4 @@ jobs:
           aws-region: eu-west-1
       - run: zip -r package.zip *
       - name: Serverless Deploy
-        run: npm run-script deploy
+        run: npm serverless deploy
