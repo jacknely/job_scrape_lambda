@@ -1,17 +1,27 @@
-name: Test Run
+name: deploy-aws-lambda
 on:
-  push
+  push:
+    branches:
+      - master
 jobs:
-  lambda:
+  deploy:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [10.x]
     steps:
-      - uses: actions/checkout@mastera
-      - run: echo "THIS IS A TEST PACKAGE" > file.txt
-      - run: zip -r package.zip *
-      - uses: stcalica/update-lambda
+      - uses: actions/checkout@master
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
         with:
-          package: lambda.zip
-          function-name: TEST-FUNCTION
-          AWS_REGION: ${{ secrets.AWS_REGION }}
-          AWS_SECRET_ID: ${{ secrets.AWS_SECRET_ID }}
-          AWS_SECRET_KEY: ${{ secrets.AWS_SECRET_KEY }}
+          node-version: ${{ matrix.node-version }}
+      - name: Install Dependencies
+        run: npm install
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_SECRET_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY }}
+          aws-region: ${{ secrets.REGION }}
+      - name: Serverless Deploy
+        run: npm run-script deploy
