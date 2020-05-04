@@ -5,7 +5,7 @@ import time
 import timeout_decorator
 
 class JobSite(object):
-   @timeout_decorator.timeout(100)
+   @timeout_decorator.timeout(10)
    def get_jobs(self):
        print(f"getting jobs from: {self.url}")
        r = request.urlopen(self.url)
