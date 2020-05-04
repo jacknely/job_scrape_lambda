@@ -23,5 +23,7 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_SECRET_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY }}
           aws-region: eu-west-1
+      - name: Serverless Deploy    
+      - run: zip -r package.zip * -x "node_modules/*"
       - name: Serverless Deploy
-        run: npm run-script package deploy
+        run: npm run-script deploy
