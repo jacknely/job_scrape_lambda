@@ -25,7 +25,7 @@ jobs:
           aws-region: eu-west-1
       - name: Package
         run: |
-          python -m pip install --upgrade pip
+          sudo apt-get install python3-pip .
           pip install requests bs4 timeout-decorator -t .
           zip -r package.zip * -x "node_modules/*"
       - name: Serverless Deploy
