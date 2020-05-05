@@ -24,7 +24,9 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY }}
           aws-region: eu-west-1
       - name: Package
-        run: pip3 install requests bs4 timeout-decorator -t .
-        run: zip -r package.zip * -x "node_modules/*"
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests bs4 timeout-decorator -t .
+          zip -r package.zip * -x "node_modules/*"
       - name: Serverless Deploy
         run: npm run-script deploy
