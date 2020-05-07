@@ -29,8 +29,10 @@ class TestJobSiteMaster:
 
     @mock_dynamodb2
     def test_insert_into_db(self):
+        os.environ['AWS_ACCESS_KEY_ID'] = 'foo'
+        os.environ['AWS_SECRET_ACCESS_KEY'] = 'bar'
         table_name = 'js.jobs_raw'
-        dynamodb = boto3.resource('dynamodb', 'eu-west-1')
+        dynamodb = boto3.resource('dynamodb', region_name='eu-west-1')
 
         # create a mock dynamodb table
         table = dynamodb.create_table(
