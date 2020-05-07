@@ -5,6 +5,7 @@ from unittest.mock import patch
 from datetime import date
 import boto3
 from moto import mock_dynamodb2
+import os
 
 myPath = str(Path(__file__).parent)
 sys.path.insert(0, myPath + '/../')
