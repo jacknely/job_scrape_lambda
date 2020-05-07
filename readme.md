@@ -11,7 +11,7 @@ Install from requirements.txt:
 ## Manual Deploy to Lambda
 Ensure all required packages are install at root:
 ```
-pip3 install requests bs4 timeout-decorator -t .
+pip3 install requests bs4 -t .
 ```
 Update application details in `serverless.yml`
 Zip all files

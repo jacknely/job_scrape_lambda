@@ -1,16 +1,13 @@
 import boto3
 from bs4 import BeautifulSoup
 from urllib import request
-import time
-import timeout_decorator
 
 class JobSite(object):
 
-   @timeout_decorator.timeout(12)
    def get_jobs(self):
        try:
            print(f"getting jobs from: {self.url}")
-           r = request.urlopen(self.url)
+           r = request.urlopen(self.url, timeout=12)
            soup = BeautifulSoup(r, "html.parser")
            jobs = soup.find_all(class_=f"{self.job_block}")
            extracted_jobs = [self.extract_job_details(job) for job in jobs]

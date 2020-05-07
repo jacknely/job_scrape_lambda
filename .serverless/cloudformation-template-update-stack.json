@@ -144,7 +144,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/js-scraper/dev/1588602071167-2020-05-04T14:21:11.167Z/package.zip"
+          "S3Key": "serverless/js-scraper/dev/1588848954319-2020-05-07T10:55:54.319Z/package.zip"
         },
         "FunctionName": "js-scraper-dev-job",
         "Handler": "handler.scrape",
@@ -169,14 +169,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "JobLambdaVersionciNxQWuEJtsvvmreuiufh2muWedmJm9HVu6KcvA": {
+    "JobLambdaVersionHqAio9nIxv9fbyZcjJWbAkiil0ZwgYvVXSwDkQkhaU": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "JobLambdaFunction"
         },
-        "CodeSha256": "Mjh/CEoy5WvVJCsHfTOVpZC6Tk4d0Iy8ISyKazkj2Yg="
+        "CodeSha256": "TKR5lJzyUMyQ/WGF0hmIUh8xJMJHYDefe9cAmXHEp/U="
       }
     }
   },
@@ -189,7 +189,7 @@
     "JobLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "JobLambdaVersionciNxQWuEJtsvvmreuiufh2muWedmJm9HVu6KcvA"
+        "Ref": "JobLambdaVersionHqAio9nIxv9fbyZcjJWbAkiil0ZwgYvVXSwDkQkhaU"
       }
     }
   }
