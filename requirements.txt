@@ -1,3 +1,5 @@
 requests
 bs4
 timeout-decorator
+boto3
+moto
