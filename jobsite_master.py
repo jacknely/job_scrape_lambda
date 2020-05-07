@@ -10,9 +10,21 @@ class JobSite(object):
            r = request.urlopen(self.url, timeout=12)
            soup = BeautifulSoup(r, "html.parser")
            jobs = soup.find_all(class_=f"{self.job_block}")
-           extracted_jobs = [self.extract_job_details(job) for job in jobs]
+           extracted_jobs = self.extract_job_details(jobs)
+           return extracted_jobs
        except Exception as err:
            print(f"ERROR: {self.name} did not download: {err}")
+
+   def extract_job_details(self, jobs):
+       extracted_jobs = []
+       for job in jobs:
+          try:
+              extracted = self.get_details(job)
+              extracted_jobs.append(extracted)
+          except Exception as err:
+              with open("./error_log.txt", 'a') as file:
+                 file.write("\n ------------Break------------  \n")
+                 file.write(str(job))
        return extracted_jobs
 
    @classmethod

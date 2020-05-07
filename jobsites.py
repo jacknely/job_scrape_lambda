@@ -2,12 +2,19 @@ from datetime import date
 from jobsite_master import JobSite
 
 class Reed(JobSite):
-
+    """
+    a class representation of job site: Reed, based
+    on JobSite parent class
+    """
     name = "Reed"
     url = "https://www.reed.co.uk/jobs/junior-python-jobs-in-london?sortby=DisplayDate"
     job_block = "job-result"
 
-    def extract_job_details(self, job):
+    def get_details(self, job):
+        """
+        uses bs4 to extract jobs specs from site.
+        specific to each job site
+        """
         detail = {
             "id": {"S": job.find(class_="job-result-anchor")['id']},
             "title": {"S": job.find('h3').get_text().strip()},
@@ -26,12 +33,19 @@ class Reed(JobSite):
         return detail
 
 class Indeed(JobSite):
-
+    """
+    a class representation of job site: Indeed, based
+    on JobSite parent class
+    """
     name = "Indeed"
     url = "https://www.indeed.co.uk/jobs?q=Junior+Python&l=London&radius=10&start=0&limit=100"
     job_block = "jobsearch-SerpJobCard unifiedRow row result"
 
-    def extract_job_details(obj, job):
+    def get_details(obj, job):
+        """
+        uses bs4 to extract jobs specs from site.
+        specific to each job site
+        """
         detail = {"id": {"S": job.find(class_="recJobLoc")['id'][10:]},
                   "title": {"S": job.find(class_="jobtitle turnstileLink").get_text().strip()},
                   "location": {"S": job.find(class_="location accessible-contrast-color-location").get_text().strip()},
@@ -51,12 +65,19 @@ class Indeed(JobSite):
         return detail
 
 class Cw(JobSite):
-
+    """
+    a class representation of job site: CW Jobs, based
+    on JobSite parent class
+    """
     name = "CW Jobs"
     url = "http://www.cwjobs.co.uk/jobs/junior-python/in-london?radius=10&s=recentsearch&Sort=3"
     job_block = "job"
 
-    def extract_job_details(obj, job):
+    def get_details(obj, job):
+        """
+        uses bs4 to extract jobs specs from site.
+        specific to each job site
+        """
         detail = {
             "id": {"S": job.find("a")["href"][-8:]},
             "title": {"S": job.find("h2").get_text()},

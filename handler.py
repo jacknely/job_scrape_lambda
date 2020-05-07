@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from jobsite_master import JobSite
 from jobsites import Reed, Indeed, Cw
 

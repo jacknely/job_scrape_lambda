@@ -1,0 +1,617 @@
+
+ ------------Break------------  
+<div class="job ci-advert-job">
+<div class="row">
+<div class="col-sm-12">
+<div class="row">
+<div class="ci-job-content col-xs-12 col-sm-12 col-md-12">
+<div class="job-title ci-job-title">
+<h2><span class="ci-highlight">Broaden your horizons with a FREE course</span></h2>
+</div>
+<p class="ci-job-intro ci-tjg-normal">Brush up your skills with a FREE course and increase your chances of getting hired. Take a FREE course today.</p>
+<div class="row">
+<div class="col-sm-12 col-md-12">
+<button class="btn btn-primary">Get started</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+ ------------Break------------  
+<div class="job new" id="90074458">
+<div class="row">
+<div class="col-sm-12">
+<div class="job-title">
+<a data-search-sw-cache="true" href="https://www.cwjobs.co.uk/job/data-scientist/bae-systems-applied-intelligence-ltd-job90074458?r=1-Results" title="See details for a Data Scientist in London">
+<h2>Data Scientist</h2>
+</a>
+<span class="label label-featured">Premium</span>
+</div>
+<div class="detail-body">
+<div class="row">
+<div class="col-xs-12 col-sm-8" id="headerListContainer">
+<div class="applied-col pull-right" style="display: none;">
+<span class="applied-icon">Applied</span>
+</div>
+<ul class="header-list">
+<li class="location">
+<span>
+<a href="https://www.cwjobs.co.uk/jobs/in-london">London</a>
+</span>
+<div class="commute-time-info"></div>
+<div class="commute-time-info hidden" data-jobid="90074458" data-postcode="">
+<div class="commute-time-error"></div>
+<div class="commute-time-content">
+<span class="commute-time"></span>
+    from
+    <div class="readonly-postcode">
+<span class="commute-time-from"></span> - <a class="change-location-link js-change-postcode">Update</a>
+</div>
+<div class="update-postcode-inline-form postcode-form">
+<form onsubmit="">
+<div class="form-control-wrapper">
+<input autocomplete="off" class="input form-control commute-time-from-input location-input" placeholder="Postcode" size="10" type="text"/>
+</div>
+<button class="btn btn-default form-control" type="submit">Update</button>
+</form>
+</div>
+</div>
+</div>
+</li>
+<li class="salary" title="salary">Competitive Salary</li>
+</ul>
+</div>
+<div class="col-xs-5 col-sm-4 pull-right" id="recruiterImageContainer">
+<div class="recruiter-image">
+<a href="https://www.cwjobs.co.uk/jobs-at/bae-systems-applied-intelligence/jobs" title="BAE Systems Applied Intelligence Ltd">
+<img src="./sample_files/717f44df4d7a46c3a72d2229230f71dc.png"/>
+</a>
+</div>
+</div>
+<div class="col-xs-7 col-sm-8">
+<ul class="detail-list">
+<li class="company" title="hiring organization">
+<h3>
+<a href="https://www.cwjobs.co.uk/jobs-at/bae-systems-applied-intelligence/jobs" title="BAE Systems Applied Intelligence Ltd">BAE Systems Applied Intelligence Ltd</a>
+</h3>
+</li>
+<li class="date-posted" title="posted date">
+<span>
+                                    Recently
+                                </span>
+</li>
+</ul>
+</div>
+</div>
+<div class="row detail-footer">
+<div class="col-sm-12 col-md-10">
+<div title="job details">
+<p class="job-intro" style="overflow-wrap: break-word;">The Applied Intelligence business of BAE Systems delivers solutions which help to protect and enhance the connected world. Our solutions combine large … </p>
+</div>
+</div>
+<div class="email-job-col visible-xs visible-sm col-xs-4 col-md-2 col-sm-4">
+<button class="btn btn-default btn-sendjob" data-job-id="90074458" data-job-token="UvYxcMTxgBUThr5btdaXwEHG+XQyTqVENtwBGm9Vy3DwAgB41i6Mi3B/iLKsWwV6" data-target="#sendJobModal" data-toggle="modal" type="button">Send</button>
+</div>
+<div class="see-job-col visible-xs visible-sm col-xs-4 col-sm-4 col-md-4">
+<a class="btn btn-default btn-seejob" href="https://www.cwjobs.co.uk/job/data-scientist/bae-systems-applied-intelligence-ltd-job90074458?r=1-Results">See</a>
+</div>
+<div class="save-job-col col-xs-4 col-sm-4 col-md-2">
+<button class="saved-jobs-icon btn btn-default btn-savejob btn-mobile-hover-fix" id="90074458">Save</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+ ------------Break------------  
+<div class="job ci-advert-job">
+<div class="row">
+<div class="col-sm-12">
+<div class="row">
+<div class="ci-job-content col-xs-12 col-sm-12 col-md-12">
+<div class="job-title ci-job-title">
+<h2><span class="ci-highlight">Broaden your horizons with a FREE course</span></h2>
+</div>
+<p class="ci-job-intro ci-tjg-normal">Brush up your skills with a FREE course and increase your chances of getting hired. Take a FREE course today.</p>
+<div class="row">
+<div class="col-sm-12 col-md-12">
+<button class="btn btn-primary">Get started</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+ ------------Break------------  
+<div class="job new" id="90074458">
+<div class="row">
+<div class="col-sm-12">
+<div class="job-title">
+<a data-search-sw-cache="true" href="https://www.cwjobs.co.uk/job/data-scientist/bae-systems-applied-intelligence-ltd-job90074458?r=1-Results" title="See details for a Data Scientist in London">
+<h2>Data Scientist</h2>
+</a>
+<span class="label label-featured">Premium</span>
+</div>
+<div class="detail-body">
+<div class="row">
+<div class="col-xs-12 col-sm-8" id="headerListContainer">
+<div class="applied-col pull-right" style="display: none;">
+<span class="applied-icon">Applied</span>
+</div>
+<ul class="header-list">
+<li class="location">
+<span>
+<a href="https://www.cwjobs.co.uk/jobs/in-london">London</a>
+</span>
+<div class="commute-time-info"></div>
+<div class="commute-time-info hidden" data-jobid="90074458" data-postcode="">
+<div class="commute-time-error"></div>
+<div class="commute-time-content">
+<span class="commute-time"></span>
+    from
+    <div class="readonly-postcode">
+<span class="commute-time-from"></span> - <a class="change-location-link js-change-postcode">Update</a>
+</div>
+<div class="update-postcode-inline-form postcode-form">
+<form onsubmit="">
+<div class="form-control-wrapper">
+<input autocomplete="off" class="input form-control commute-time-from-input location-input" placeholder="Postcode" size="10" type="text"/>
+</div>
+<button class="btn btn-default form-control" type="submit">Update</button>
+</form>
+</div>
+</div>
+</div>
+</li>
+<li class="salary" title="salary">Competitive Salary</li>
+</ul>
+</div>
+<div class="col-xs-5 col-sm-4 pull-right" id="recruiterImageContainer">
+<div class="recruiter-image">
+<a href="https://www.cwjobs.co.uk/jobs-at/bae-systems-applied-intelligence/jobs" title="BAE Systems Applied Intelligence Ltd">
+<img src="./sample_files/717f44df4d7a46c3a72d2229230f71dc.png"/>
+</a>
+</div>
+</div>
+<div class="col-xs-7 col-sm-8">
+<ul class="detail-list">
+<li class="company" title="hiring organization">
+<h3>
+<a href="https://www.cwjobs.co.uk/jobs-at/bae-systems-applied-intelligence/jobs" title="BAE Systems Applied Intelligence Ltd">BAE Systems Applied Intelligence Ltd</a>
+</h3>
+</li>
+<li class="date-posted" title="posted date">
+<span>
+                                    Recently
+                                </span>
+</li>
+</ul>
+</div>
+</div>
+<div class="row detail-footer">
+<div class="col-sm-12 col-md-10">
+<div title="job details">
+<p class="job-intro" style="overflow-wrap: break-word;">The Applied Intelligence business of BAE Systems delivers solutions which help to protect and enhance the connected world. Our solutions combine large … </p>
+</div>
+</div>
+<div class="email-job-col visible-xs visible-sm col-xs-4 col-md-2 col-sm-4">
+<button class="btn btn-default btn-sendjob" data-job-id="90074458" data-job-token="UvYxcMTxgBUThr5btdaXwEHG+XQyTqVENtwBGm9Vy3DwAgB41i6Mi3B/iLKsWwV6" data-target="#sendJobModal" data-toggle="modal" type="button">Send</button>
+</div>
+<div class="see-job-col visible-xs visible-sm col-xs-4 col-sm-4 col-md-4">
+<a class="btn btn-default btn-seejob" href="https://www.cwjobs.co.uk/job/data-scientist/bae-systems-applied-intelligence-ltd-job90074458?r=1-Results">See</a>
+</div>
+<div class="save-job-col col-xs-4 col-sm-4 col-md-2">
+<button class="saved-jobs-icon btn btn-default btn-savejob btn-mobile-hover-fix" id="90074458">Save</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+ ------------Break------------  
+<div class="job ci-advert-job">
+<div class="row">
+<div class="col-sm-12">
+<div class="row">
+<div class="ci-job-content col-xs-12 col-sm-12 col-md-12">
+<div class="job-title ci-job-title">
+<h2><span class="ci-highlight">Broaden your horizons with a FREE course</span></h2>
+</div>
+<p class="ci-job-intro ci-tjg-normal">Brush up your skills with a FREE course and increase your chances of getting hired. Take a FREE course today.</p>
+<div class="row">
+<div class="col-sm-12 col-md-12">
+<button class="btn btn-primary">Get started</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+ ------------Break------------  
+<div class="job new" id="90074458">
+<div class="row">
+<div class="col-sm-12">
+<div class="job-title">
+<a data-search-sw-cache="true" href="https://www.cwjobs.co.uk/job/data-scientist/bae-systems-applied-intelligence-ltd-job90074458?r=1-Results" title="See details for a Data Scientist in London">
+<h2>Data Scientist</h2>
+</a>
+<span class="label label-featured">Premium</span>
+</div>
+<div class="detail-body">
+<div class="row">
+<div class="col-xs-12 col-sm-8" id="headerListContainer">
+<div class="applied-col pull-right" style="display: none;">
+<span class="applied-icon">Applied</span>
+</div>
+<ul class="header-list">
+<li class="location">
+<span>
+<a href="https://www.cwjobs.co.uk/jobs/in-london">London</a>
+</span>
+<div class="commute-time-info"></div>
+<div class="commute-time-info hidden" data-jobid="90074458" data-postcode="">
+<div class="commute-time-error"></div>
+<div class="commute-time-content">
+<span class="commute-time"></span>
+    from
+    <div class="readonly-postcode">
+<span class="commute-time-from"></span> - <a class="change-location-link js-change-postcode">Update</a>
+</div>
+<div class="update-postcode-inline-form postcode-form">
+<form onsubmit="">
+<div class="form-control-wrapper">
+<input autocomplete="off" class="input form-control commute-time-from-input location-input" placeholder="Postcode" size="10" type="text"/>
+</div>
+<button class="btn btn-default form-control" type="submit">Update</button>
+</form>
+</div>
+</div>
+</div>
+</li>
+<li class="salary" title="salary">Competitive Salary</li>
+</ul>
+</div>
+<div class="col-xs-5 col-sm-4 pull-right" id="recruiterImageContainer">
+<div class="recruiter-image">
+<a href="https://www.cwjobs.co.uk/jobs-at/bae-systems-applied-intelligence/jobs" title="BAE Systems Applied Intelligence Ltd">
+<img src="./sample_files/717f44df4d7a46c3a72d2229230f71dc.png"/>
+</a>
+</div>
+</div>
+<div class="col-xs-7 col-sm-8">
+<ul class="detail-list">
+<li class="company" title="hiring organization">
+<h3>
+<a href="https://www.cwjobs.co.uk/jobs-at/bae-systems-applied-intelligence/jobs" title="BAE Systems Applied Intelligence Ltd">BAE Systems Applied Intelligence Ltd</a>
+</h3>
+</li>
+<li class="date-posted" title="posted date">
+<span>
+                                    Recently
+                                </span>
+</li>
+</ul>
+</div>
+</div>
+<div class="row detail-footer">
+<div class="col-sm-12 col-md-10">
+<div title="job details">
+<p class="job-intro" style="overflow-wrap: break-word;">The Applied Intelligence business of BAE Systems delivers solutions which help to protect and enhance the connected world. Our solutions combine large … </p>
+</div>
+</div>
+<div class="email-job-col visible-xs visible-sm col-xs-4 col-md-2 col-sm-4">
+<button class="btn btn-default btn-sendjob" data-job-id="90074458" data-job-token="UvYxcMTxgBUThr5btdaXwEHG+XQyTqVENtwBGm9Vy3DwAgB41i6Mi3B/iLKsWwV6" data-target="#sendJobModal" data-toggle="modal" type="button">Send</button>
+</div>
+<div class="see-job-col visible-xs visible-sm col-xs-4 col-sm-4 col-md-4">
+<a class="btn btn-default btn-seejob" href="https://www.cwjobs.co.uk/job/data-scientist/bae-systems-applied-intelligence-ltd-job90074458?r=1-Results">See</a>
+</div>
+<div class="save-job-col col-xs-4 col-sm-4 col-md-2">
+<button class="saved-jobs-icon btn btn-default btn-savejob btn-mobile-hover-fix" id="90074458">Save</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+ ------------Break------------  
+<div class="job ci-advert-job">
+<div class="row">
+<div class="col-sm-12">
+<div class="row">
+<div class="ci-job-content col-xs-12 col-sm-12 col-md-12">
+<div class="job-title ci-job-title">
+<h2><span class="ci-highlight">Broaden your horizons with a FREE course</span></h2>
+</div>
+<p class="ci-job-intro ci-tjg-normal">Brush up your skills with a FREE course and increase your chances of getting hired. Take a FREE course today.</p>
+<div class="row">
+<div class="col-sm-12 col-md-12">
+<button class="btn btn-primary">Get started</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+ ------------Break------------  
+<div class="job new" id="90074458">
+<div class="row">
+<div class="col-sm-12">
+<div class="job-title">
+<a data-search-sw-cache="true" href="https://www.cwjobs.co.uk/job/data-scientist/bae-systems-applied-intelligence-ltd-job90074458?r=1-Results" title="See details for a Data Scientist in London">
+<h2>Data Scientist</h2>
+</a>
+<span class="label label-featured">Premium</span>
+</div>
+<div class="detail-body">
+<div class="row">
+<div class="col-xs-12 col-sm-8" id="headerListContainer">
+<div class="applied-col pull-right" style="display: none;">
+<span class="applied-icon">Applied</span>
+</div>
+<ul class="header-list">
+<li class="location">
+<span>
+<a href="https://www.cwjobs.co.uk/jobs/in-london">London</a>
+</span>
+<div class="commute-time-info"></div>
+<div class="commute-time-info hidden" data-jobid="90074458" data-postcode="">
+<div class="commute-time-error"></div>
+<div class="commute-time-content">
+<span class="commute-time"></span>
+    from
+    <div class="readonly-postcode">
+<span class="commute-time-from"></span> - <a class="change-location-link js-change-postcode">Update</a>
+</div>
+<div class="update-postcode-inline-form postcode-form">
+<form onsubmit="">
+<div class="form-control-wrapper">
+<input autocomplete="off" class="input form-control commute-time-from-input location-input" placeholder="Postcode" size="10" type="text"/>
+</div>
+<button class="btn btn-default form-control" type="submit">Update</button>
+</form>
+</div>
+</div>
+</div>
+</li>
+<li class="salary" title="salary">Competitive Salary</li>
+</ul>
+</div>
+<div class="col-xs-5 col-sm-4 pull-right" id="recruiterImageContainer">
+<div class="recruiter-image">
+<a href="https://www.cwjobs.co.uk/jobs-at/bae-systems-applied-intelligence/jobs" title="BAE Systems Applied Intelligence Ltd">
+<img src="./sample_files/717f44df4d7a46c3a72d2229230f71dc.png"/>
+</a>
+</div>
+</div>
+<div class="col-xs-7 col-sm-8">
+<ul class="detail-list">
+<li class="company" title="hiring organization">
+<h3>
+<a href="https://www.cwjobs.co.uk/jobs-at/bae-systems-applied-intelligence/jobs" title="BAE Systems Applied Intelligence Ltd">BAE Systems Applied Intelligence Ltd</a>
+</h3>
+</li>
+<li class="date-posted" title="posted date">
+<span>
+                                    Recently
+                                </span>
+</li>
+</ul>
+</div>
+</div>
+<div class="row detail-footer">
+<div class="col-sm-12 col-md-10">
+<div title="job details">
+<p class="job-intro" style="overflow-wrap: break-word;">The Applied Intelligence business of BAE Systems delivers solutions which help to protect and enhance the connected world. Our solutions combine large … </p>
+</div>
+</div>
+<div class="email-job-col visible-xs visible-sm col-xs-4 col-md-2 col-sm-4">
+<button class="btn btn-default btn-sendjob" data-job-id="90074458" data-job-token="UvYxcMTxgBUThr5btdaXwEHG+XQyTqVENtwBGm9Vy3DwAgB41i6Mi3B/iLKsWwV6" data-target="#sendJobModal" data-toggle="modal" type="button">Send</button>
+</div>
+<div class="see-job-col visible-xs visible-sm col-xs-4 col-sm-4 col-md-4">
+<a class="btn btn-default btn-seejob" href="https://www.cwjobs.co.uk/job/data-scientist/bae-systems-applied-intelligence-ltd-job90074458?r=1-Results">See</a>
+</div>
+<div class="save-job-col col-xs-4 col-sm-4 col-md-2">
+<button class="saved-jobs-icon btn btn-default btn-savejob btn-mobile-hover-fix" id="90074458">Save</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+ ------------Break------------  
+<div class="job ci-advert-job">
+<div class="row">
+<div class="col-sm-12">
+<div class="row">
+<div class="ci-job-content col-xs-12 col-sm-12 col-md-12">
+<div class="job-title ci-job-title">
+<h2><span class="ci-highlight">Broaden your horizons with a FREE course</span></h2>
+</div>
+<p class="ci-job-intro ci-tjg-normal">Brush up your skills with a FREE course and increase your chances of getting hired. Take a FREE course today.</p>
+<div class="row">
+<div class="col-sm-12 col-md-12">
+<button class="btn btn-primary">Get started</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+ ------------Break------------  
+<div class="job new" id="90074458">
+<div class="row">
+<div class="col-sm-12">
+<div class="job-title">
+<a data-search-sw-cache="true" href="https://www.cwjobs.co.uk/job/data-scientist/bae-systems-applied-intelligence-ltd-job90074458?r=1-Results" title="See details for a Data Scientist in London">
+<h2>Data Scientist</h2>
+</a>
+<span class="label label-featured">Premium</span>
+</div>
+<div class="detail-body">
+<div class="row">
+<div class="col-xs-12 col-sm-8" id="headerListContainer">
+<div class="applied-col pull-right" style="display: none;">
+<span class="applied-icon">Applied</span>
+</div>
+<ul class="header-list">
+<li class="location">
+<span>
+<a href="https://www.cwjobs.co.uk/jobs/in-london">London</a>
+</span>
+<div class="commute-time-info"></div>
+<div class="commute-time-info hidden" data-jobid="90074458" data-postcode="">
+<div class="commute-time-error"></div>
+<div class="commute-time-content">
+<span class="commute-time"></span>
+    from
+    <div class="readonly-postcode">
+<span class="commute-time-from"></span> - <a class="change-location-link js-change-postcode">Update</a>
+</div>
+<div class="update-postcode-inline-form postcode-form">
+<form onsubmit="">
+<div class="form-control-wrapper">
+<input autocomplete="off" class="input form-control commute-time-from-input location-input" placeholder="Postcode" size="10" type="text"/>
+</div>
+<button class="btn btn-default form-control" type="submit">Update</button>
+</form>
+</div>
+</div>
+</div>
+</li>
+<li class="salary" title="salary">Competitive Salary</li>
+</ul>
+</div>
+<div class="col-xs-5 col-sm-4 pull-right" id="recruiterImageContainer">
+<div class="recruiter-image">
+<a href="https://www.cwjobs.co.uk/jobs-at/bae-systems-applied-intelligence/jobs" title="BAE Systems Applied Intelligence Ltd">
+<img src="./sample_files/717f44df4d7a46c3a72d2229230f71dc.png"/>
+</a>
+</div>
+</div>
+<div class="col-xs-7 col-sm-8">
+<ul class="detail-list">
+<li class="company" title="hiring organization">
+<h3>
+<a href="https://www.cwjobs.co.uk/jobs-at/bae-systems-applied-intelligence/jobs" title="BAE Systems Applied Intelligence Ltd">BAE Systems Applied Intelligence Ltd</a>
+</h3>
+</li>
+<li class="date-posted" title="posted date">
+<span>
+                                    Recently
+                                </span>
+</li>
+</ul>
+</div>
+</div>
+<div class="row detail-footer">
+<div class="col-sm-12 col-md-10">
+<div title="job details">
+<p class="job-intro" style="overflow-wrap: break-word;">The Applied Intelligence business of BAE Systems delivers solutions which help to protect and enhance the connected world. Our solutions combine large … </p>
+</div>
+</div>
+<div class="email-job-col visible-xs visible-sm col-xs-4 col-md-2 col-sm-4">
+<button class="btn btn-default btn-sendjob" data-job-id="90074458" data-job-token="UvYxcMTxgBUThr5btdaXwEHG+XQyTqVENtwBGm9Vy3DwAgB41i6Mi3B/iLKsWwV6" data-target="#sendJobModal" data-toggle="modal" type="button">Send</button>
+</div>
+<div class="see-job-col visible-xs visible-sm col-xs-4 col-sm-4 col-md-4">
+<a class="btn btn-default btn-seejob" href="https://www.cwjobs.co.uk/job/data-scientist/bae-systems-applied-intelligence-ltd-job90074458?r=1-Results">See</a>
+</div>
+<div class="save-job-col col-xs-4 col-sm-4 col-md-2">
+<button class="saved-jobs-icon btn btn-default btn-savejob btn-mobile-hover-fix" id="90074458">Save</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+ ------------Break------------  
+<div class="job new" id="90074458">
+<div class="row">
+<div class="col-sm-12">
+<div class="job-title">
+<a data-dynamic-qs="?r=1-Results" data-search-sw-cache="true" href="https://www.cwjobs.co.uk/job/data-scientist/bae-systems-applied-intelligence-ltd-job90074458" title="See details for a Data Scientist in London">
+<h2>Data Scientist</h2>
+</a>
+<span class="label label-featured">Premium</span>
+</div>
+<div class="detail-body">
+<div class="row">
+<div class="col-xs-12 col-sm-8" id="headerListContainer">
+<div class="applied-col pull-right" style="display: none;">
+<span class="applied-icon">Applied</span>
+</div>
+<ul class="header-list">
+<li class="location">
+<span>
+<a href="/jobs/in-london">London</a>
+</span>
+<div class="commute-time-info"></div>
+<div class="commute-time-info hidden" data-jobid="90074458" data-postcode="">
+<div class="commute-time-error"></div>
+<div class="commute-time-content">
+<span class="commute-time"></span>
+    from
+    <div class="readonly-postcode">
+<span class="commute-time-from"></span> - <a class="change-location-link js-change-postcode">Update</a>
+</div>
+<div class="update-postcode-inline-form postcode-form">
+<form onsubmit="">
+<div class="form-control-wrapper">
+<input autocomplete="off" class="input form-control commute-time-from-input location-input" placeholder="Postcode" size="10" type="text"/>
+</div>
+<button class="btn btn-default form-control" type="submit">Update</button>
+</form>
+</div>
+</div>
+</div>
+</li>
+<li class="salary" title="salary">Competitive Salary</li>
+</ul>
+</div>
+<div class="col-xs-5 col-sm-4 pull-right" id="recruiterImageContainer">
+<div class="recruiter-image">
+<a href="/jobs-at/bae-systems-applied-intelligence/jobs" title="BAE Systems Applied Intelligence Ltd">
+<img src="https://www.cwjobs.co.uk/companylogos/717f44df4d7a46c3a72d2229230f71dc.png"/>
+</a>
+</div>
+</div>
+<div class="col-xs-7 col-sm-8">
+<ul class="detail-list">
+<li class="company" title="hiring organization">
+<h3>
+<a href="/jobs-at/bae-systems-applied-intelligence/jobs" title="BAE Systems Applied Intelligence Ltd">BAE Systems Applied Intelligence Ltd</a>
+</h3>
+</li>
+<li class="date-posted" title="posted date">
+<span>
+                                    Recently
+                                </span>
+</li>
+</ul>
+</div>
+</div>
+<div class="row detail-footer">
+<div class="col-sm-12 col-md-10">
+<div title="job details">
+<p class="job-intro">The Applied Intelligence business of BAE Systems delivers solutions which help to protect and enhance the connected world. Our solutions combine large … </p>
+</div>
+</div>
+<div class="email-job-col visible-xs visible-sm col-xs-4 col-md-2 col-sm-4">
+<button class="btn btn-default btn-sendjob" data-job-id="90074458" data-job-token="UvYxcMTxgBUThr5btdaXwEHG+XQyTqVENtwBGm9Vy3D5GxquDUcLABDvwulZ5575" data-target="#sendJobModal" data-toggle="modal" type="button">Send</button>
+</div>
+<div class="see-job-col visible-xs visible-sm col-xs-4 col-sm-4 col-md-4">
+<a class="btn btn-default btn-seejob" data-dynamic-qs="?r=1-Results" href="https://www.cwjobs.co.uk/job/data-scientist/bae-systems-applied-intelligence-ltd-job90074458">See</a>
+</div>
+<div class="save-job-col col-xs-4 col-sm-4 col-md-2">
+<button class="saved-jobs-icon btn btn-default btn-savejob btn-mobile-hover-fix disabled" disabled="disabled" id="90074458">Save</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>

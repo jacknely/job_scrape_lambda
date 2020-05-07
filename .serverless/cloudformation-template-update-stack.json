@@ -59,7 +59,7 @@
     "JobLogGroup": {
       "Type": "AWS::Logs::LogGroup",
       "Properties": {
-        "LogGroupName": "/aws/lambda/js-scraper-dev-job"
+        "LogGroupName": "/aws/lambda/js-scraper-beta-job"
       }
     },
     "IamRoleLambdaExecution": {
@@ -87,7 +87,7 @@
               "Fn::Join": [
                 "-",
                 [
-                  "js-scraper-dev",
+                  "js-scraper-beta",
                   "lambda"
                 ]
               ]
@@ -103,7 +103,7 @@
                   ],
                   "Resource": [
                     {
-                      "Fn::Sub": "arn:${AWS::Partition}:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/js-scraper-dev*:*"
+                      "Fn::Sub": "arn:${AWS::Partition}:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/js-scraper-beta*:*"
                     }
                   ]
                 },
@@ -114,7 +114,7 @@
                   ],
                   "Resource": [
                     {
-                      "Fn::Sub": "arn:${AWS::Partition}:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/js-scraper-dev*:*:*"
+                      "Fn::Sub": "arn:${AWS::Partition}:logs:${AWS::Region}:${AWS::AccountId}:log-group:/aws/lambda/js-scraper-beta*:*:*"
                     }
                   ]
                 }
@@ -127,7 +127,7 @@
           "Fn::Join": [
             "-",
             [
-              "js-scraper-dev",
+              "js-scraper-beta",
               {
                 "Ref": "AWS::Region"
               },
@@ -144,9 +144,9 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/js-scraper/dev/1588848954319-2020-05-07T10:55:54.319Z/package.zip"
+          "S3Key": "serverless/js-scraper/beta/1588859399806-2020-05-07T13:49:59.806Z/package.zip"
         },
-        "FunctionName": "js-scraper-dev-job",
+        "FunctionName": "js-scraper-beta-job",
         "Handler": "handler.scrape",
         "MemorySize": 1024,
         "Role": {
@@ -155,13 +155,17 @@
             "Arn"
           ]
         },
-        "Runtime": "python3.6",
-        "Timeout": 6,
+        "Runtime": "python3.8",
+        "Timeout": 40,
         "Tags": [
           {
             "Key": "project",
             "Value": "job_search"
           }
+        ],
+        "Layers": [
+          "arn:aws:lambda:eu-west-1:139228650326:layer:aws-b4-layer:1",
+          "arn:aws:lambda:eu-west-1:139228650326:layer:aws-requests-layer:2"
         ]
       },
       "DependsOn": [
@@ -169,14 +173,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "JobLambdaVersionHqAio9nIxv9fbyZcjJWbAkiil0ZwgYvVXSwDkQkhaU": {
+    "JobLambdaVersionLco3VTUarAuSTDJBCPsMxsO2EN6kJaSaDWVrjgTeSIQ": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "JobLambdaFunction"
         },
-        "CodeSha256": "TKR5lJzyUMyQ/WGF0hmIUh8xJMJHYDefe9cAmXHEp/U="
+        "CodeSha256": "aarIhbEyT0zACdN+CYdm2DqKWCyAC+PDhBnLjw/0Wek="
       }
     }
   },
@@ -189,7 +193,7 @@
     "JobLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "JobLambdaVersionHqAio9nIxv9fbyZcjJWbAkiil0ZwgYvVXSwDkQkhaU"
+        "Ref": "JobLambdaVersionLco3VTUarAuSTDJBCPsMxsO2EN6kJaSaDWVrjgTeSIQ"
       }
     }
   }
