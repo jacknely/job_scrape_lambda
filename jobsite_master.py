@@ -5,14 +5,17 @@ import time
 import timeout_decorator
 
 class JobSite(object):
-   @timeout_decorator.timeout(10)
-   def get_jobs(self):
-       print(f"getting jobs from: {self.url}")
-       r = request.urlopen(self.url)
-       soup = BeautifulSoup(r, "html.parser")
-       jobs = soup.find_all(class_=f"{self.job_block}")
-       extracted_jobs = [self.extract_job_details(job) for job in jobs]
 
+   @timeout_decorator.timeout(12)
+   def get_jobs(self):
+       try:
+           print(f"getting jobs from: {self.url}")
+           r = request.urlopen(self.url)
+           soup = BeautifulSoup(r, "html.parser")
+           jobs = soup.find_all(class_=f"{self.job_block}")
+           extracted_jobs = [self.extract_job_details(job) for job in jobs]
+       except Exception as err:
+           print(f"ERROR: {self.name} did not download: {err}")
        return extracted_jobs
 
    @classmethod

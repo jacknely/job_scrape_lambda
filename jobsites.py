@@ -2,8 +2,11 @@ from datetime import date
 from jobsite_master import JobSite
 
 class Reed(JobSite):
+
+    name = "Reed"
     url = "https://www.reed.co.uk/jobs/junior-python-jobs-in-london?sortby=DisplayDate"
     job_block = "job-result"
+
     def extract_job_details(self, job):
         detail = {
             "id": {"S": job.find(class_="job-result-anchor")['id']},
@@ -23,6 +26,8 @@ class Reed(JobSite):
         return detail
 
 class Indeed(JobSite):
+
+    name = "Indeed"
     url = "https://www.indeed.co.uk/jobs?q=Junior+Python&l=London&radius=10&start=0&limit=100"
     job_block = "jobsearch-SerpJobCard unifiedRow row result"
 
@@ -46,6 +51,8 @@ class Indeed(JobSite):
         return detail
 
 class Cw(JobSite):
+
+    name = "CW Jobs"
     url = "http://www.cwjobs.co.uk/jobs/junior-python/in-london?radius=10&s=recentsearch&Sort=3"
     job_block = "job"
 
