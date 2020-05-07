@@ -12,5 +12,8 @@ package:
 functions:
   job:
     handler: handler.scrape
+    layers:
+      - arn:aws:lambda:eu-west-1:139228650326:layer:aws-b4-layer:1
+      - arn:aws:lambda:eu-west-1:139228650326:layer:aws-requests-layer:2
     tags:
       project: job_search
