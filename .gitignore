@@ -146,3 +146,4 @@ virt/
 # misc
 dependencies
 .zip
+error_log.txt
