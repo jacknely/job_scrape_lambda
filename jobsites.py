@@ -39,6 +39,7 @@ class Reed(JobSite):
             "summary": {"S": job.find(class_="description").get_text().strip()},
             "interested": {"S": "TBC"},
             "reviewed": {"S": "N"},
+            "email": {"S": "N"},
         }
         return detail
 
@@ -82,6 +83,7 @@ class Indeed(JobSite):
             "summary": {"S": job.find(class_="summary").get_text().strip()},
             "interested": {"S": "TBC"},
             "reviewed": {"S": "N"},
+            "email": {"S": "N"},
         }
 
         return detail
@@ -118,6 +120,7 @@ class Cw(JobSite):
             "summary": {"S": job.find(class_="job-intro").get_text()},
             "interested": {"S": "TBC"},
             "reviewed": {"S": "N"},
+            "email": {"S": "N"},
         }
 
         return detail
