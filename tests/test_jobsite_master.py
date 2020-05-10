@@ -70,6 +70,7 @@ class TestJobSiteMaster:
                 "summary": {"S": "test234"},
                 "interested": {"S": "TBC"},
                 "reviewed": {"S": "N"},
+                "email": {"S": "N"},
             }
         ]
 

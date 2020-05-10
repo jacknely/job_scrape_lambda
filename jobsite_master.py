@@ -1,3 +1,5 @@
+#! usr/bin/env/python
+
 import boto3
 from bs4 import BeautifulSoup
 from urllib import request
