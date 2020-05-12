@@ -56,5 +56,9 @@ class JobSite(object):
         table_name = "js.jobs_raw"
         condition = "attribute_not_exists(id)"
         for job in jobs:
-            dynamodb.put_item(TableName=table_name, Item=job,
-            ConditionExpression=condition)
+            try:
+                dynamodb.put_item(TableName=table_name, Item=job,
+                ConditionExpression=condition)
+            except Exception as e:
+                # id exists, dont update
+                continue

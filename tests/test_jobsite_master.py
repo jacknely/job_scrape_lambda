@@ -9,6 +9,10 @@ import os
 
 # needs set as PYTHONPATH env unav
 sys.path.insert(0, str(Path(__file__).parent) + "/../")
+# moto needs these:
+os.environ["AWS_ACCESS_KEY_ID"] = "foo"
+os.environ["AWS_SECRET_ACCESS_KEY"] = "bar"
+os.environ["AWS_DEFAULT_REGION"] = "eu-west-1"
 
 from jobsite_master import JobSite
 
@@ -41,9 +45,6 @@ class TestJobSiteMaster:
 
     @mock_dynamodb2
     def test_insert_into_db(self):
-        os.environ["AWS_ACCESS_KEY_ID"] = "foo"
-        os.environ["AWS_SECRET_ACCESS_KEY"] = "bar"
-        os.environ["AWS_DEFAULT_REGION"] = "eu-west-1"
         table_name = "js.jobs_raw"
         dynamodb = boto3.resource("dynamodb", region_name="eu-west-1")
 
